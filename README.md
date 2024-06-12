@@ -1,10 +1,11 @@
 This project is sample/skeleton project for anyone who wants to make a 2D Platformer in Godot 4.x with ease.
 All important variables and modes are able to be set on the editor through the inspector!
 
-How to install:
-  Download and unzip the file. Go to Godot 4.x and import the project file.
+HOW TO INSTALL:
 
-It features:
+  - Download and unzip the file. Go to Godot 4.x and import the project file.
+
+FEATURES:
 
 -> Player Script:
   - Basic moving scripts, with acceleration, maximum velocity, separate break speed.
