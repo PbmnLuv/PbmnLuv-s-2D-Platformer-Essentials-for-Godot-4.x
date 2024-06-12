@@ -2,14 +2,16 @@ This project is sample/skeleton project for anyone who wants to make a 2D Platfo
 All important variables and modes are able to be set on the editor through the inspector!
 
 It features:
- -> Player Script:
-    - Basic moving scripts, with acceleration, maximum velocity, separate break speed.
-    - Gravity control, including a toggle for enabling 'holding the jump button to go higher' and a variable which controls its intensity.
-    - Control the number of possible jumps.
-    - 3 different modes for Coyote Time:
-      - None (no coyote time)
-      - Inifinite (inifinite amount of time to perform the jumps)
-      - Limited Time (perform the jump withing the specified time in milliseconds)
+
+-> Player Script:
+  - Basic moving scripts, with acceleration, maximum velocity, separate break speed.
+  - Gravity control, including a toggle for enabling 'holding the jump button to go higher' and a variable which controls its intensity.
+  - Control the number of possible jumps.
+  - 3 different modes for Coyote Time:
+  - None (no coyote time)
+  - Inifinite (inifinite amount of time to perform the jumps)
+  - Limited Time (perform the jump withing the specified time in milliseconds)
+    
 -> Camera Script:
   - Needs a reference for the Player Node.
   -> Has 3 different modes:
