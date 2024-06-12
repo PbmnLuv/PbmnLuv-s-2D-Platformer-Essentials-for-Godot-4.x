@@ -11,7 +11,7 @@ FEATURES:
   - Basic moving script with acceleration, maximum velocity and break speed.
   - Gravity control, including a toggle for enabling 'holding the jump button to go higher' and a variable which controls its intensity.
   - Control the number of possible jumps.
-  -> 3 different modes for Coyote Time:
+  - 3 different modes for Coyote Time:
     - None (no coyote time)
     - Infinite (inifinite amount of time to perform the jumps)
     - Limited Time (perform the jump withing the specified time in milliseconds)
