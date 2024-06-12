@@ -8,7 +8,7 @@ HOW TO INSTALL:
 FEATURES:
 
 -> Player Script:
-  - Basic moving scripts, with acceleration, maximum velocity and break speed.
+  - Basic moving script with acceleration, maximum velocity and break speed.
   - Gravity control, including a toggle for enabling 'holding the jump button to go higher' and a variable which controls its intensity.
   - Control the number of possible jumps.
   -> 3 different modes for Coyote Time:
