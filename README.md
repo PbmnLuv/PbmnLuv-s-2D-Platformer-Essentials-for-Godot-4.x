@@ -21,7 +21,7 @@ FEATURES:
   - Has 3 different modes:
      - Fixed: Camera is fixed to the Player Node.
      - Follow: Camera follow the player node.
-     - "Follow Interactive": Is an improved version of Follow camera in which you can set it to look ahead when moving forward or backwards and also look up and down
+     - "Follow Interactive": An improved version of Follow camera in which you can set it to look ahead when moving forward or backwards and also look up and down
   - Both "Follow Camera" modes have a toggle for the jump follow, which sets whether the camera follows the player upon jumping or not. You can also control the intensity of this jump follow, by changing the
        jumpFollowReducer variable. The bigger it is the less intense the follow will be on the jump.
   
