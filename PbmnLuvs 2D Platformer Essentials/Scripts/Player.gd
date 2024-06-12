@@ -31,8 +31,6 @@ enum CoyoteTimeMode {
 @export var coyoteTime_time_limit: float = 1000.0 # in miliseconds
 @onready var coyoteTimer = 0
 
-
-
 	
 func _physics_process(delta):
 		
@@ -50,6 +48,8 @@ func updatePlayer(delta):
 func _moveUpdate(delta):
 	
 	_updateGravity(delta)
+	
+	
 	
 	if Input.is_action_pressed("Right") or Input.is_action_pressed("RightJoy"):
 		if velocity.x < 0.0:
@@ -86,7 +86,8 @@ func _moveUpdate(delta):
 	if Input.is_action_just_pressed("Accept") and currentJumps > 0:
 		
 		if coyoteTimeMode == CoyoteTimeMode.NONE:
-			_jump()
+			if is_on_floor():
+				_jump()
 			pass
 		elif coyoteTimeMode == CoyoteTimeMode.INFINITE:
 			_jump()
@@ -100,6 +101,8 @@ func _moveUpdate(delta):
 	
 	
 	move_and_slide()
+	
+	
 	
 	pass
 
