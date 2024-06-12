@@ -21,7 +21,6 @@ extends CharacterBody2D
 @export var max_jumps: int = 1
 @onready var currentJumps: int = 1
 
-
 enum CoyoteTimeMode {
   NONE,
   INFINITE,
@@ -86,7 +85,8 @@ func _moveUpdate(delta):
 	if Input.is_action_just_pressed("Accept") and currentJumps > 0:
 		
 		if coyoteTimeMode == CoyoteTimeMode.NONE:
-			_jump()
+			if is_on_floor():
+				_jump()
 			pass
 		elif coyoteTimeMode == CoyoteTimeMode.INFINITE:
 			_jump()
