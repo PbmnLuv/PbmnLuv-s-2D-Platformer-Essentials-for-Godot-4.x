@@ -1,6 +1,9 @@
 This project is sample/skeleton project for anyone who wants to make a 2D Platformer in Godot 4.x with ease.
 All important variables and modes are able to be set on the editor through the inspector!
 
+How to install:
+  Download and unzip the file. Go to Godot 4.x and import the project file.
+
 It features:
 
 -> Player Script:
@@ -9,7 +12,7 @@ It features:
   - Control the number of possible jumps.
   -> 3 different modes for Coyote Time:
     - None (no coyote time)
-    - Inifinite (inifinite amount of time to perform the jumps)
+    - Infinite (inifinite amount of time to perform the jumps)
     - Limited Time (perform the jump withing the specified time in milliseconds)
     
 -> Camera Script:
