@@ -14,7 +14,7 @@ It features:
     
 -> Camera Script:
   - Needs a reference for the Player Node.
-  -> Has 3 different modes:
+  - Has 3 different modes:
      - Fixed: Camera is fixed to the Player Node.
      - Follow: Camera follow the player node.
      - "Follow Interactive": Is an improved version of Follow camera in which you can set it to look ahead when moving forward or backwards and also look up and down
