@@ -21,7 +21,6 @@ extends CharacterBody2D
 @export var max_jumps: int = 1
 @onready var currentJumps: int = 1
 
-
 enum CoyoteTimeMode {
   NONE,
   INFINITE,
